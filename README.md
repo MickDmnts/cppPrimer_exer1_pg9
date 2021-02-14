@@ -1,2 +1,2 @@
 # cppPrimer_exer1_pg9
-# First exercise from C++ Primer book.
+Exercise 1.3 from C++ Primer book.

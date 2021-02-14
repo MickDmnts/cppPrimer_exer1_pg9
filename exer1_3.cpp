@@ -1,5 +1,10 @@
 #include <iostream>
 
+void PrintHelloWorld()
+{
+	std::cout << "Hello World" << std::endl;
+}
+
 void PrintMultiplication()
 {
 	int value1 = 15, value2 = 15;
@@ -8,7 +13,7 @@ void PrintMultiplication()
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	PrintHelloWorld();
 	PrintMultiplication();
 	return 0;
 }

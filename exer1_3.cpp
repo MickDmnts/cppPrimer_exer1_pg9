@@ -13,7 +13,7 @@ void PrintMultiplication()
 
 int main()
 {
-	PrintHelloWorld();
-	PrintMultiplication();
+	PrintHelloWorld(); // exer1.3
+	PrintMultiplication(); //exer1.4
 	return 0;
 }

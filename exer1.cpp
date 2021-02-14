@@ -25,11 +25,11 @@ void SeparateStatements(int v1, int v2)
 	std::cout << std::endl;
 }
 
-void CodeFragmentIsLegal(int v1, int v2)
+void CodeFragmentIsLegal()
 {
-	int total = v1 + v2;
+	/*int total = v1 + v2;
 
-	/*std::cout << "The sum of " << v1;
+	std::cout << "The sum of " << v1;
 	<< " and " << v2;
 	<< " is " << total << std::endl;*/
 
@@ -54,8 +54,7 @@ int main()
 	SeparateStatements(v1, v2); //exer1.5
 	system("pause");
 
-	CodeFragmentIsLegal(v1, v2); //exer1.6
-	system("pause");
+	CodeFragmentIsLegal(); //exer1.6
 
 	return 0;
 }

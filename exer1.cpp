@@ -7,8 +7,8 @@ void PrintHelloWorld()
 
 void PrintMultiplication(int v1,int v2)
 {
-	int total = v1 + v2;
-	std::cout << "The addition of " << v1 << " and " << v2 << " is " << total << std::endl;
+	int total = v1 * v2;
+	std::cout << "The multiplication of " << v1 << " and " << v2 << " is " << total << std::endl;
 }
 
 void SeparateStatements(int v1, int v2)
